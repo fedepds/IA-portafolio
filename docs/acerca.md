@@ -1,6 +1,6 @@
 # 🤖 Portafolio — Introducción al Aprendizaje Automático
 
-### **Autor:** [Tu nombre completo]  
+### **Autor:** Federico Pizarro 
 🔗 [LinkedIn](https://www.linkedin.com/in/federico-pizarro-387864288) | [GitHub](https://github.com/fedepds)
 
 ---
