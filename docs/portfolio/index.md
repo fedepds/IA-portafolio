@@ -17,3 +17,6 @@ title: "Índice del Portafolio"
 - Práctico 6: [Practico6.md](Practico6.md)
 - Práctico 7: [practico7.md](practico7.md)
 - Práctico 8: [Practico8.md](Practico8.md)
+- Práctico 9: [Practico9.md](Practico9.md)
+- Práctico 10: [Practico10.md](Practico10.md)
+- Práctico 12: [Practico12.md](Practico12.md)
