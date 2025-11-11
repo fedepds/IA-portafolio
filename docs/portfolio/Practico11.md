@@ -1,6 +1,3 @@
----
-title: "Práctica UT11 – Fine-Tuning y Tracking con YOLOv8 para Detección de Productos"
----
 
 # Práctica UT11 – Fine-Tuning y Tracking con YOLOv8 para Detección de Productos
 
