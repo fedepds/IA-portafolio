@@ -12,7 +12,7 @@ En este proyecto profundicé en los fundamentos del **Deep Learning**, implement
 - Optimización de hiperparámetros: funciones de activación, optimizadores y configuraciones de capas.
 - Evaluación sistemática del rendimiento con métricas de clasificación.
 
-Implementé experimentos controlados para analizar cómo cada componente impacta en la convergencia, precisión y capacidad de generalización.
+Implementé experimentos controlados para analizar cómo cada componente impacta en la convergencia, precision y capacidad de generalización.
 
 ---
 

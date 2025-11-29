@@ -63,4 +63,4 @@ Implementé una estructura de control `dsl.Condition` en el pipeline. Solo si el
 * **Trazabilidad:** Utilicé la funcionalidad de **Linaje (Lineage)** de Vertex AI para rastrear el origen de los artefactos generados, auditando visualmente qué dataset específico entrenó al modelo que finalmente fue desplegado.
 
 ### Resultados
-El pipeline logró automatizar el ciclo de vida completo del modelo. La evaluación automatizada generó visualizaciones detalladas, como la matriz de confusión, accesibles directamente desde la interfaz de Pipelines, validando la precisión del modelo antes de su exposición automática como API REST.
+El pipeline logró automatizar el ciclo de vida completo del modelo. La evaluación automatizada generó visualizaciones detalladas, como la matriz de confusión, accesibles directamente desde la interfaz de Pipelines, validando la precision del modelo antes de su exposición automática como API REST.

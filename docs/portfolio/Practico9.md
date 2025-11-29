@@ -91,19 +91,19 @@ Se utilizó `ImageDataGenerator` para ambos modelos a fin de mejorar la robustez
 - **Callbacks:** `EarlyStopping(monitor='val_accuracy', patience=3, restore_best_weights=True)`.
 
 **CNN Simple:**  
-Entrenamiento estándar (10 épocas) usando `datagen.flow()`.
+Entrenamiento estándar (10 epochs) usando `datagen.flow()`.
 
 **Transfer Learning (2 Etapas):**
 
 1. **Etapa 1 – Extracción:**  
    - Base congelada (`base_model.trainable = False`).  
-   - Entrenamiento solo del cabezal (10 épocas, detenida en la 5).  
+   - Entrenamiento solo del cabezal (10 epochs, detenida en la 5).  
    - Parámetros entrenables: 333,066.  
 
 2. **Etapa 2 – Fine-Tuning:**  
    - Se descongelaron las últimas 10 capas.  
    - LR reducido a `1e-4`.  
-   - Entrenamiento por 10 épocas, detenido en la 8.
+   - Entrenamiento por 10 epochs, detenido en la 8.
 
 ---
 
@@ -146,8 +146,8 @@ Un modelo más complejo (como EfficientNetB0) no garantiza mejores resultados si
 
 ---
 
-## Próximo Paso
+## Exploraciones Futuras
 
 - Probar arquitecturas más ligeras (ej. MobileNetV2).  
-- Intenté aplicar el modelo a otro tipo de dataset, pero surgieron muchos problemas con los pesos preentrenados: incompatibilidades de tamaño/escala de entrada y comportamiento inestable al cargar los pesos, lo que impidió un reentrenamiento fiable.  
-- Analizar el impacto de las capas `BatchNormalization` durante la congelación, que podrían haber agravado la inestabilidad estadística con datos muy distintos a ImageNet.
+- Experimentar con otros datasets para evaluar la generalización del modelo, considerando las incompatibilidades de tamaño/escala de entrada que pueden surgir con pesos preentrenados.  
+- Analizar el impacto de las capas `BatchNormalization` durante la congelación, que podrían agravar la inestabilidad estadística con datos muy distintos a ImageNet.

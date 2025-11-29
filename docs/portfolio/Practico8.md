@@ -38,7 +38,7 @@ Realicé experimentos controlados modificando un hiperparámetro a la vez para a
 
 3. **Condiciones controladas**:  
    - Se modificó **un hiperparámetro a la vez**.  
-   - Cada entrenamiento: 5–10 épocas, batch size en {32, 64}.  
+   - Cada entrenamiento: 5–10 epochs, batch size en {32, 64}.  
 
 ---
 
@@ -64,7 +64,7 @@ Realicé experimentos controlados modificando un hiperparámetro a la vez para a
 - **GlorotUniform** → buen rendimiento en general.  
 
 ### 🔹 Optimizadores
-- **Adam (lr=1e-3)** → buen balance entre rapidez y precisión.  
+- **Adam (lr=1e-3)** → buen balance entre rapidez y precision.  
 - **SGD con momentum** → más lento pero estable, sensible al LR.  
 - **RMSprop** → funcionó bien en datasets más complejos.  
 - **AdamW** → útil cuando se combina con decay (weight decay=1e-4).  
@@ -85,13 +85,13 @@ Realicé experimentos controlados modificando un hiperparámetro a la vez para a
 
 ---
 
-## 📌 Reflexión personal
+## 📋 Reflexión personal
 Este ejercicio me permitió entender:
 - Cómo cada **hiperparámetro** afecta al entrenamiento.  
 - La importancia de **experimentar de manera sistemática** (un cambio a la vez).  
 - Que el **MLP es limitado para visión**, pero sirve como base para comprender *backpropagation, optimizadores y regularización*.  
 
-Próximo paso: aplicar las mismas técnicas con **CNNs** para mejorar la performance en datasets de imágenes más complejos.
+Exploraciones que podrían implementarse: aplicar las mismas técnicas con **CNNs** para mejorar la performance en datasets de imágenes más complejos.
 
 ---
 

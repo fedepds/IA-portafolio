@@ -37,7 +37,7 @@ Demostré que la explicabilidad no es un "extra" sino una herramienta crítica d
 ### Entrenamiento y Evaluación
 - Optimizador: Adam.
 - Loss: sparse_categorical_crossentropy.
-- Entrenamiento: 10 épocas sobre el subset.
+- Entrenamiento: 10 epochs sobre el subset.
 - Monitoreo de train/val loss y accuracy.
 
 ### Análisis de Explicabilidad (XAI)
@@ -64,8 +64,8 @@ Demostré que la explicabilidad no es un "extra" sino una herramienta crítica d
 - GradCAM demostró ser una herramienta de debugging crucial.
 - Este ejercicio muestra la diferencia entre "modelo que funciona" y "modelo en el que podemos confiar".
 
-## Próximo paso
-- Implementar ModelCheckpoint para guardar el mejor modelo (época 6).
+## Exploraciones Futuras
+- Implementar ModelCheckpoint para guardar el mejor modelo (epoch 6).
 - Probar Mixup/CutMix y regularización adicional para reducir overfitting.
 
 ---

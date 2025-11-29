@@ -60,10 +60,10 @@ Generé visualizaciones estratégicas para descubrir patrones clave:
 
 ---
 
-## 🔍 Conclusiones y Próximos Pasos
+## 🔍 Conclusiones y Exploraciones Futuras
 - Demostré mi capacidad para realizar análisis exploratorio exhaustivo, identificando patrones y variables clave antes del modelado.  
 - Este EDA estableció las bases para el desarrollo de modelos predictivos robustos.  
-- Propuse mejoras estratégicas:  
+- Exploraciones que podrían implementarse:  
   - Implementar técnicas de imputación inteligente para `Age` y `Embarked`.  
   - Realizar feature engineering: extraer títulos (`Mr.`, `Mrs.`) desde `Name`, crear variable de tamaño familiar.  
   - Explorar interacciones entre variables para capturar relaciones no lineales.  

@@ -5,7 +5,7 @@ En este proyecto apliqué **fine-tuning de un modelo de fundación** (Segment An
 - **Transfer learning eficiente**: Fine-tuning selectivo del decoder (4.33% de parámetros) logrando mejoras significativas.
 - **Evaluación zero-shot**: Análisis del rendimiento base con prompts de punto y caja.
 - **Comparación arquitectónica**: Benchmarking contra U-Net especialista para validar la estrategia.
-- **Métricas de segmentación**: IoU, Dice, Precisión y Recall para evaluación exhaustiva.
+- **Métricas de segmentación**: IoU, Dice, Precision y Recall para evaluación exhaustiva.
 
 Este proyecto muestra cómo adaptar modelos generalistas de gran escala a dominios específicos con eficiencia computacional.
 
@@ -28,7 +28,7 @@ Este proyecto muestra cómo adaptar modelos generalistas de gran escala a domini
 - **Prompts**: Se evaluó el rendimiento del modelo pre-entrenado sin ningún tipo de fine-tuning, utilizando dos tipos de prompts generados a partir de las máscaras de verdad (`ground truth`):
     - **Point Prompt**: Un único punto en el centro de la región de agua.
     - **Box Prompt**: Un cuadro delimitador (`bounding box`) que encierra toda la región de agua.
-- **Métricas**: Se midió el rendimiento inicial usando IoU, Dice, Precisión y Recall.
+- **Métricas**: Se midió el rendimiento inicial usando IoU, Dice, Precision y Recall.
 
 ### 3. Fine-tuning de SAM
 - **Estrategia**: Se aplicó una técnica de fine-tuning eficiente (Parameter-Efficient Fine-Tuning, PEFT):
@@ -36,7 +36,7 @@ Este proyecto muestra cómo adaptar modelos generalistas de gran escala a domini
     - **Entrenamiento**: Se entrenó únicamente el `mask_decoder`, que representa menos del 5% de los parámetros totales.
 - **Dataset**: Se creó un `torch.utils.data.Dataset` que redimensiona las imágenes a 1024x1024 (tamaño nativo de SAM) y genera `point prompts` aleatorios dentro de las áreas de agua para cada muestra.
 - **Loss Function**: Se utilizó una pérdida combinada de `Binary Cross-Entropy (BCE)` y `Dice Loss` para un entrenamiento más estable.
-- **Entrenamiento**: Se entrenó el modelo durante 17 épocas con un `batch size` pequeño (2) debido al alto consumo de memoria de SAM.
+- **Entrenamiento**: Se entrenó el modelo durante 17 epochs con un `batch size` pequeño (2) debido al alto consumo de memoria de SAM.
 
 ### 4. Entrenamiento del Modelo U-Net
 - **Arquitectura**: Como comparativa, se implementó un modelo `U-Net` con un backbone `ResNet34` pre-entrenado en ImageNet, utilizando la librería `segmentation-models-pytorch`.

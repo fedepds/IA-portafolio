@@ -63,7 +63,7 @@ basado en 30 características celulares.
    - **Accuracy**: porcentaje total de aciertos.  
    - **Precision**: de los casos predichos como benignos, cuántos eran correctos.  
    - **Recall (Sensibilidad)**: de todos los casos benignos reales, cuántos detectó.  
-   - **F1-Score**: balance entre precisión y recall.  
+   - **F1-Score**: balance entre precision y recall.  
    - **Matriz de Confusión**: muestra aciertos y errores →  
      - Falsos positivos: predecir benigno cuando es maligno.  
      - Falsos negativos: predecir maligno cuando es benigno (el error más grave en medicina).  
@@ -79,7 +79,7 @@ basado en 30 características celulares.
 - **¿Por qué dividir datos en train/test?**  
   Para evitar overfitting y comprobar que el modelo generaliza.  
 
-- **¿Qué significa exactitud del 95%?**  
+- **¿Qué significa accuracy del 95%?**  
   Que el modelo acierta en 95 de cada 100 predicciones.  
 
 - **Error más peligroso en medicina**:  

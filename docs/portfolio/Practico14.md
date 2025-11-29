@@ -30,7 +30,7 @@ Este proyecto refleja el toolkit completo para construir aplicaciones LLM robust
 ### 2. Plantillas y Encadenamiento (LCEL)
 - **Objetivo**: Separar la lógica de la instrucción (`prompt`) de los datos (`variables`).
 - **Técnica**: Se reemplazaron los strings de prompt por `ChatPromptTemplate` y se encadenó con el LLM usando el operador `|` (LCEL) (Parte 2).
-- **Análisis (Zero-shot vs. Few-shot)**: Se compararon los patrones (Parte 6). Se descubrió que un `temperature > 0` podía **romper la precisión** de un modelo *few-shot* si los ejemplos proporcionados estaban incompletos (ej. faltaba la clase `NEU`).
+- **Análisis (Zero-shot vs. Few-shot)**: Se compararon los patrones (Parte 6). Se descubrió que un `temperature > 0` podía **romper la precision** de un modelo *few-shot* si los ejemplos proporcionados estaban incompletos (ej. faltaba la clase `NEU`).
 
 ### 3. Garantía de Salida Estructurada (El "Contrato")
 - **Hipótesis**: "Pedir" un JSON mediante un prompt es frágil; se debe "forzar" un JSON mediante un esquema.
