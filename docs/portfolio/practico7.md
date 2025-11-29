@@ -110,6 +110,4 @@ El flujo de trabajo siguió el **pipeline estándar de Deep Learning**:
 
 ## 📓 Notebook
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/fedepds/IA-portafolio/blob/main/docs/portfolio/UT2/practico7.ipynb)
-
-[Ver Notebook en GitHub](UT2/practico7.ipynb)
+**[Abrir en Google Colab](https://colab.research.google.com/github/fedepds/IA-portafolio/blob/main/docs/portfolio/UT2/practico7.ipynb)**

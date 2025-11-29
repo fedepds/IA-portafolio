@@ -92,6 +92,4 @@ Esta práctica marcó la transición de la ingeniería de prompts (prompt engine
 
 ## 📓 Notebook
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/fedepds/IA-portafolio/blob/main/docs/portfolio/UT4/Practico14.ipynb)
-
-[Ver Notebook en GitHub](UT4/Practico14.ipynb)
+**[Abrir en Google Colab](https://colab.research.google.com/github/fedepds/IA-portafolio/blob/main/docs/portfolio/UT4/Practico14.ipynb)**

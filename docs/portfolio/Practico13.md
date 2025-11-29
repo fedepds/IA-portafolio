@@ -101,7 +101,5 @@ Esta práctica ejecutó un proyecto de NLP de extremo a extremo, desde la justif
 
 ## 📓 Notebook
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/fedepds/IA-portafolio/blob/main/docs/portfolio/UT4/Practico13.ipynb)
-
-[Ver Notebook en GitHub](UT4/Practico13.ipynb)
+**[Abrir en Google Colab](https://colab.research.google.com/github/fedepds/IA-portafolio/blob/main/docs/portfolio/UT4/Practico13.ipynb)**
 

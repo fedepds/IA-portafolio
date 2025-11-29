@@ -97,6 +97,4 @@ Próximo paso: aplicar las mismas técnicas con **CNNs** para mejorar la perform
 
 ## 📓 Notebook
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/fedepds/IA-portafolio/blob/main/docs/portfolio/UT2/Practica8.ipynb)
-
-[Ver Notebook en GitHub](UT2/Practica8.ipynb)
+**[Abrir en Google Colab](https://colab.research.google.com/github/fedepds/IA-portafolio/blob/main/docs/portfolio/UT2/Practica8.ipynb)**

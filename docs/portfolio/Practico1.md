@@ -72,6 +72,4 @@ Generé visualizaciones estratégicas para descubrir patrones clave:
 
 ## 📓 Notebook
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/fedepds/IA-portafolio/blob/main/docs/portfolio/UT1/Practico1/Practica_1Pizarro.ipynb)
-
-[Ver Notebook en GitHub](UT1/Practico1/Practica_1Pizarro.ipynb)
+**[Abrir en Google Colab](https://colab.research.google.com/github/fedepds/IA-portafolio/blob/main/docs/portfolio/UT1/Practico1/Practica_1Pizarro.ipynb)**

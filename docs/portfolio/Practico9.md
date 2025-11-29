@@ -135,9 +135,7 @@ La CNN simple fue **56.84% superior** al enfoque de Transfer Learning.
 
 ## 📓 Notebook
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/fedepds/IA-portafolio/blob/main/docs/portfolio/UT3/Practico9.ipynb)
-
-[Ver Notebook en GitHub](UT3/Practico9.ipynb)
+**[Abrir en Google Colab](https://colab.research.google.com/github/fedepds/IA-portafolio/blob/main/docs/portfolio/UT3/Practico9.ipynb)**
 
 ## Reflexión Personal
 

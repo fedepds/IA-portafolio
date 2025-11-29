@@ -69,6 +69,4 @@ En este proyecto apliqué técnicas de **aprendizaje no supervisado** para segme
 
 ## 📓 Notebook
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/fedepds/IA-portafolio/blob/main/docs/portfolio/UT1/Practico6/TA6Pizarro.ipynb)
-
-[Ver Notebook en GitHub](UT1/Practico6/TA6Pizarro.ipynb)
+**[Abrir en Google Colab](https://colab.research.google.com/github/fedepds/IA-portafolio/blob/main/docs/portfolio/UT1/Practico6/TA6Pizarro.ipynb)**

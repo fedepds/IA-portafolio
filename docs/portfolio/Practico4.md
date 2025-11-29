@@ -107,7 +107,5 @@ basado en 30 características celulares.
 
 ## 📓 Notebook
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/fedepds/IA-portafolio/blob/main/docs/portfolio/UT1/Practico4/TA4.ipynb)
-
-[Ver Notebook en GitHub](UT1/Practico4/TA4.ipynb)
+**[Abrir en Google Colab](https://colab.research.google.com/github/fedepds/IA-portafolio/blob/main/docs/portfolio/UT1/Practico4/TA4.ipynb)**
 
