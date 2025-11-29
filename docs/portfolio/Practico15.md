@@ -5,59 +5,65 @@
 
 ## Contexto
 
-En este proyecto implementé **LangGraph**, el framework estado del arte para construir agentes con lógica compleja, superando las limitaciones de cadenas lineales. Desarrollé un **Asistente de Soporte Académico** que demuestra:
+En este proyecto trabajé con **LangGraph**, un framework para construir agentes con lógica compleja, más allá de las cadenas lineales simples. Desarrollé un **Asistente de Soporte Académico** que incluye:
 
-- **Arquitectura ReAct (Reason + Act)**: Ciclos cognitivos donde el agente razona, actúa y observa antes de responder.
-- **RAG avanzado**: Indexación de documentos institucionales (Reglamentos) en FAISS para fundamentar respuestas.
-- **Tools integration**: Conexión del LLM con funciones deterministas (consultas a "bases de datos" simuladas).
+- **Arquitectura ReAct (Reason + Act)**: Ciclos donde el agente razona, actúa y observa antes de responder.
+- **RAG avanzado**: Indexación de documentos (Reglamentos) en FAISS para fundamentar respuestas.
+- **Tools integration**: Conexión del LLM con funciones (consultas a "bases de datos" simuladas).
 - **StateGraph**: Diseño de flujos con nodos (Assistant, Tools, Memory) y aristas condicionales.
-- **Interfaz Gradio**: Despliegue de UI interactiva para validación de usuario.
+- **Interfaz Gradio**: Despliegue de UI interactiva para pruebas.
 
-Este proyecto muestra cómo construir agentes conversacionales de nivel empresarial con memoria, herramientas y flujo dinámico.
+El proyecto muestra cómo construir agentes conversacionales con memoria, herramientas y flujo dinámico.
 
 ---
 
 ## 🚀 Valor Agregado e Innovación
 
-Este proyecto va más allá de tutoriales básicos de LangChain, demostrando arquitectura de sistemas complejos:
+Este proyecto va más allá de tutoriales básicos de LangChain, explorando arquitectura de sistemas complejos:
 
 ### 1. Arquitectura de Grafos Dirigidos con Lógica Condicional
+
 - **No me limité a cadenas lineales (LangChain LCEL)**: Implementé un **StateGraph** con múltiples nodos y aristas condicionales que permiten flujos cíclicos.
 - **Patrón ReAct implementado**: El agente NO responde inmediatamente, sino que:
   1. **Razona** (¿necesito herramientas?)
   2. **Actúa** (ejecuta tools: RAG, consulta DB)
   3. **Observa** (ve los resultados)
   4. **Decide** (bucle o respuesta final)
-- **Valor**: Esta arquitectura permite agentes que pueden iterar, corregirse y tomar decisiones complejas, imposible con cadenas lineales simples.
+- **Aprendizaje**: Esta arquitectura permite agentes que pueden iterar, corregirse y tomar decisiones complejas, imposible con cadenas lineales simples.mples.
 
 ### 2. Integración Dual: Memoria Semántica (RAG) + Herramientas Operativas
+
 - **RAG para conocimiento no estructurado**: Indexación de documentos (Reglamento del curso) en FAISS para fundamentar respuestas sobre políticas/procedimientos.
 - **Tools para datos estructurados**: Funciones Python simulando APIs de bases de datos (estado de alumnos, entregas pendientes).
 - **Arquitectura híbrida**: El agente decide dinámicamente cuándo usar RAG vs tools vs ambos.
-- **Valor**: Esta dualidad es crítica en sistemas reales donde hay conocimiento documental + datos transaccionales.
+- **Aprendizaje**: Esta dualidad es importante en sistemas reales donde hay conocimiento documental + datos transaccionales.
 
 ### 3. Gestión de Estado Persistente (Memory)
+
 - **No es un chatbot sin memoria**: Implementé un nodo de `Memory` que resume la conversación y la incorpora al contexto del agente.
 - **AgentState custom**: Diseñé una estructura de estado (`TypedDict`) con:
   - `messages`: historial conversacional
   - `summary`: resumen acumulativo (evita context overflow)
   - `user_id`: contexto del usuario actual
-- **Valor**: Demostración de cómo gestionar estado en agentes de producción donde el contexto crece indefinidamente.
+- **Aprendizaje**: Vi cómo gestionar estado en agentes donde el contexto crece indefinidamente.
 
 ### 4. Debugging y Observabilidad de Grafos
+
 - **Visualización del grafo**: Usé `graph.get_graph().draw_png()` para generar diagrama de flujo del agente (nodos + aristas condicionales).
 - **Checkpoints implícitos**: LangGraph permite inspeccionar el estado en cada nodo, facilitando debugging.
-- **Valor**: En sistemas complejos, la observabilidad es crítica; demostré cómo hacer agentes "inspeccionables".
+- **Aprendizaje**: En sistemas complejos, la observabilidad es importante; aprendí cómo hacer agentes "inspeccionables".
 
 ### 5. Interfaz de Usuario con Gradio (Validación de UX)
+
 - **No me quedé en el notebook**: Desplegué el agente en una interfaz web interactiva con Gradio.
-- **Validación de caso de uso**: Permitió simular conversaciones reales y validar que:
+- **Validación de caso de uso**: Esto me permitió simular conversaciones reales y validar que:
   - El agente responde apropiadamente a preguntas sobre reglamentos (RAG)
   - El agente consulta correctamente datos de alumnos (tools)
   - El agente mantiene contexto entre turnos (memory)
-- **Valor**: Demostración de thinking de producto ("cómo lo usaría un usuario real") vs solo implementación técnica.
+- **Aprendizaje**: Vi la importancia de pensar en "cómo lo usaría un usuario real" vs solo implementación técnica.
 
 ### 6. Manejo de Casos Edge (Robustez)
+
 - **Pregunta sin respuesta en RAG**: El sistema reportó "No encontré información sobre cómo cambiar la batería" (fallo controlado, no alucinación).
 - **Validación de inputs**: Las tools validan que el `user_id` sea válido antes de consultar.
 - **Instrucciones de System Prompt**: El LLM tiene instrucciones claras sobre cuándo usar tools (evita abuso de herramientas).

@@ -1,7 +1,7 @@
 
 # CNN vs Transfer Learning (CIFAR-10)
 
-En este proyecto comparé dos estrategias fundamentales de Deep Learning para visión artificial: **CNNs entrenadas desde cero** vs **Transfer Learning**. Demostré mi capacidad para:
+En este proyecto comparé dos estrategias fundamentales de Deep Learning para visión artificial: **CNNs entrenadas desde cero** vs **Transfer Learning**. Trabajé en:
 
 - Diseñar arquitecturas CNN optimizadas para imágenes de baja resolución (32x32).
 - Implementar Transfer Learning con modelos estado del arte (EfficientNetB0).
@@ -9,17 +9,17 @@ En este proyecto comparé dos estrategias fundamentales de Deep Learning para vi
 - Realizar análisis crítico de cuándo Transfer Learning es apropiado.
 - Evaluar trade-offs entre complejidad arquitectónica y rendimiento.
 
-Este proyecto revela insights importantes sobre la compatibilidad entre modelos pre-entrenados y dominios específicos.
+El proyecto reveló insights importantes sobre la compatibilidad entre modelos pre-entrenados y dominios específicos.
 
 ---
 
 ## Objetivos
 
-En este proyecto me propuse: para la clasificación de imágenes en el dataset CIFAR-10:  
+En este proyecto me propuse comparar dos enfoques para la clasificación de imágenes en el dataset CIFAR-10:  
 (1) una Red Neuronal Convolucional (CNN) simple entrenada desde cero, y  
 (2) un modelo de vanguardia (EfficientNetB0) aplicando Transfer Learning.
 
-El objetivo es evaluar y contrastar el rendimiento, la eficiencia del entrenamiento y el impacto de la arquitectura, demostrando la importancia de seleccionar la estrategia de modelo adecuada según el dominio del problema.
+El objetivo es evaluar y contrastar el rendimiento, la eficiencia del entrenamiento y el impacto de la arquitectura, entendiendo cuándo cada estrategia es más apropiada.
 
 ---
 

@@ -4,14 +4,15 @@ En este proyecto apliqué **Transfer Learning** a un problema complejo de clasif
 
 - **Data Augmentation**: Pipeline robusto con transformaciones múltiples para simular variabilidad real.
 - **Transfer Learning**: Fine-tuning de EfficientNetB0 pre-entrenado en ImageNet.
-- **Explicabilidad (XAI)**: Implementación de GradCAM e Integrated Gradients para auditar decisiones del modelo.
+- **Explicabilidad (XAI)**: Implementación de GradCAM e Integrated Gradients para entender las decisiones del modelo.
 - **Diagnóstico de overfitting**: Análisis de curvas de entrenamiento y propuestas de mejora.
 
-Demostré que la explicabilidad no es un "extra" sino una herramienta crítica de debugging y confianza en producción.
+Aprendí que la explicabilidad no es un "extra" sino una herramienta útil de debugging y para generar confianza.
 
---- a un dataset complejo (Flowers102), enfocándonos en robustez (Data Augmentation) y confianza (Explicabilidad: GradCAM e Integrated Gradients).
+---
 
 ## Objetivos
+
 - Aplicar Transfer Learning (EfficientNetB0) para clasificación de 102 clases.
 - Implementar pipeline de Data Augmentation para simular variaciones de captura.
 - Diagnosticar sobreajuste analizando curvas de entrenamiento.

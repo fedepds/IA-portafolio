@@ -1,6 +1,6 @@
 # Backpropagation y Optimizadores
 
-En este proyecto exploré **MLPs aplicados a datasets de imágenes** (MNIST, Fashion-MNIST, CIFAR-10/100), demostrando mi comprensión profunda de:
+En este proyecto exploré **MLPs aplicados a datasets de imágenes** (MNIST, Fashion-MNIST, CIFAR-10/100), trabajando con:
 
 - **Backpropagation**: El algoritmo fundamental que permite entrenar redes neuronales profundas.
 - **Optimizadores avanzados**: Comparación empírica de Adam, SGD, RMSprop y AdamW.
@@ -8,9 +8,7 @@ En este proyecto exploré **MLPs aplicados a datasets de imágenes** (MNIST, Fas
 - **Regularización**: Implementación de Dropout, L2 y BatchNormalization.
 - **Callbacks**: Uso de EarlyStopping, ReduceLROnPlateau y TensorBoard para entrenamiento eficiente.
 
-Realicé experimentos controlados modificando un hiperparámetro a la vez para aislar su impacto en el rendimiento.
-
---- (MNIST, Fashion-MNIST, CIFAR-10 y CIFAR-100), evaluando cómo distintos hiperparámetros y técnicas afectan el rendimiento.
+Realisé experimentos controlados modificando un hiperparámetro a la vez para aislar su impacto en el rendimiento.
 
 ---
 
