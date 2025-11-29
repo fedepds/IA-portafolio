@@ -1,4 +1,4 @@
-# Unidad 4: Regresión y Clasificación
+# Clasificación de Vinos con Machine Learning
 
 ## 📌 Práctico: Análisis del Wine Quality Dataset
 

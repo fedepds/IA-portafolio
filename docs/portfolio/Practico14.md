@@ -1,4 +1,4 @@
-# Práctica UT4-14: LLMs con LangChain (OpenAI) — Prompting, Plantillas y Salida Estructurada
+# LangChain: Prompting y Salida Estructurada con OpenAI
 
 En esta práctica, se abordó la orquestación de Modelos de Lenguaje (LLMs) para construir aplicaciones robustas. El enfoque se centró en pasar de invocaciones simples (`llm.invoke`) a la creación de **cadenas (pipelines) fiables, observables y estructuradas** usando LangChain. Se exploraron los parámetros de decodificación, el uso de plantillas (templates), el encadenamiento con LCEL (`|`), y la crucial habilidad de forzar salidas estructuradas (JSON/Pydantic). Finalmente, se integraron estos conceptos para construir un sistema de RAG (Generación Aumentada por Recuperación) que simula un chatbot de soporte.
 

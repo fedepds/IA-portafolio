@@ -1,4 +1,4 @@
-# Práctico 1 - Análisis Exploratorio del Titanic
+# Análisis Exploratorio de Datos (Titanic)
 
 ## 🎯 Objetivo
 Familiarizarse con el dataset **Titanic - Kaggle** y aplicar un **análisis exploratorio de datos (EDA)** para:

@@ -1,4 +1,4 @@
-# Práctico 5 - Validación y Selección de Modelos
+# Validación Cruzada y Selección de Modelos
 
 ## 🎯 Objetivo
 El propósito de este práctico fue aprender a:

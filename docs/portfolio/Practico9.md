@@ -1,5 +1,5 @@
 
-# Práctica UT3-05 – Comparativa de Arquitecturas: CNN vs. Transfer Learning
+# CNN vs Transfer Learning (CIFAR-10)
 
 En esta práctica se comparan dos enfoques fundamentales para la clasificación de imágenes en el dataset CIFAR-10:  
 (1) una Red Neuronal Convolucional (CNN) simple entrenada desde cero, y  

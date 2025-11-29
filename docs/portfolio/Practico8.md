@@ -1,4 +1,4 @@
-# 📚 Práctica 8 – Backpropagation y Optimizadores
+# Backpropagation y Optimizadores
 En esta práctica exploramos **MLPs aplicados a datasets de imágenes** (MNIST, Fashion-MNIST, CIFAR-10 y CIFAR-100), evaluando cómo distintos hiperparámetros y técnicas afectan el rendimiento.
 
 ---

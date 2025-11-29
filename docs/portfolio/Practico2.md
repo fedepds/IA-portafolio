@@ -1,4 +1,4 @@
-# Práctico 2 - Feature Engineering y Modelo Base
+# Feature Engineering y Modelo Base
 
 ## 🎯 Objetivo
 Ir más allá del análisis exploratorio inicial del dataset Titanic para:

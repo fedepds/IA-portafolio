@@ -1,4 +1,4 @@
-# Práctico 6 - Mall Customer Segmentation
+# Clustering con K-Means (Mall Customers)
 
 ## 🎯 Objetivo
 Realizar un **análisis exploratorio y segmentación de clientes** a partir del dataset *Mall Customers* con el fin de:

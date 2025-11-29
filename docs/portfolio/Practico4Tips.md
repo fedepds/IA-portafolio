@@ -1,4 +1,4 @@
-# Unidad 1: Regresión Lineal y Regularización
+# Regresión con Tips Dataset
 
 ## 📌 Práctico: Análisis del Dataset Tips
 

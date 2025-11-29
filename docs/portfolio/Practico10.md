@@ -1,4 +1,4 @@
-# Práctica UT3-10 – Augmentación Avanzada y Explicabilidad (XAI)
+# Data Augmentation y XAI con Transfer Learning (Flowers102)
 
 En esta práctica aplicamos Transfer Learning a un dataset complejo (Flowers102), enfocándonos en robustez (Data Augmentation) y confianza (Explicabilidad: GradCAM e Integrated Gradients).
 

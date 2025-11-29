@@ -1,6 +1,6 @@
 
 
-# Práctica UT4-13 – Fine-Tuning de Transformers para Clasificación de Sentimiento Financiero
+# Fine-Tuning de Transformers para Sentimiento Financiero
 
 En esta práctica, se aborda un problema organizacional (medir el sentimiento del mercado) traduciéndolo en una solución técnica de IA (clasificación NLP). Se establece y evalúa un *baseline* clásico (TF-IDF), demostrando sus limitaciones semánticas. Luego, se implementa una estrategia de *fine-tuning* para adaptar modelos Transformer preentrenados (genéricos vs. de dominio) al problema. Finalmente, se analizan los artefactos de entrenamiento (overfitting), se compara el espacio latente (UMAP) y se evalúan técnicas avanzadas (balanceo de clases) para seleccionar el modelo óptimo.
 

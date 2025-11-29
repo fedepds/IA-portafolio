@@ -1,4 +1,4 @@
-# 🧠 Práctico 7 – Deep Learning Foundations  
+# Fundamentos de Redes Neuronales (MLP)
 **Unidad 2 – Fundamentos de Deep Learning**
 
 ---

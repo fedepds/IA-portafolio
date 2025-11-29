@@ -1,4 +1,4 @@
-# Práctica UT3-12 – Fine-tuning de Segment Anything Model (SAM)
+# Fine-Tuning de SAM para Segmentación de Inundaciones
 
 En esta práctica, se realiza un fine-tuning del modelo de fundación "Segment Anything Model" (SAM) para una tarea de segmentación específica: la detección de áreas inundadas. Se compara el rendimiento del modelo pre-entrenado (zero-shot), el modelo afinado y una arquitectura clásica de segmentación (U-Net).
 

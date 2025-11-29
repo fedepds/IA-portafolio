@@ -1,4 +1,4 @@
-# Práctico 4 - Regresión Lineal y Logística
+# Regresión Lineal y Logística
 
 ## 🎯 Objetivo
 Aplicar y comprender dos de los modelos más clásicos de machine learning:

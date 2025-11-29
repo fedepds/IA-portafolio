@@ -1,5 +1,5 @@
 
-# Práctica UT11 – Fine-Tuning y Tracking con YOLOv8 para Detección de Productos
+# Fine-Tuning YOLOv8 para Detección de Productos
 
 En esta práctica, se aborda un problema organizacional (automatización en supermercados) traduciéndolo en una solución técnica de IA. Se evalúan las limitaciones de un modelo de detección genérico (YOLOv8), se implementa una estrategia de fine-tuning para adaptarlo a un dominio específico (detección de frutas) y se compara el rendimiento de múltiples arquitecturas. Finalmente, el modelo afinado se despliega en un pipeline de tracking para un caso de uso de conteo en tiempo real.
 
