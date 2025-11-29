@@ -1,18 +1,20 @@
 # Regresión Lineal y Logística
 
-## 🎯 Objetivo
-Aplicar y comprender dos de los modelos más clásicos de machine learning:
-1. **Regresión Lineal** → para predecir valores numéricos continuos.  
-2. **Regresión Logística** → para resolver problemas de clasificación binaria.  
+## 🎯 Descripción
+En este proyecto demostré mi dominio de dos algoritmos fundamentales de machine learning:
+1. **Regresión Lineal**: Aplicada para predicción de valores continuos (precios de viviendas).
+2. **Regresión Logística**: Utilizada para clasificación binaria en contextos médicos críticos.
+
+Implementé pipelines completos desde la carga de datos hasta la evaluación con métricas apropiadas para cada tipo de problema.  
 
 ---
 
-## 📋 Lo que aprendimos
-- Diferencia entre regresión lineal y logística.
-- Cómo cargar y explorar datasets reales.
-- Cómo dividir datos en entrenamiento y prueba con `train_test_split`.
-- Entrenar modelos paso a paso (`fit`) y hacer predicciones (`predict`).
-- Evaluar modelos con métricas específicas para cada caso.
+## 📚 Habilidades Demostradas
+- Diferenciación clara entre problemas de regresión y clasificación, aplicando el algoritmo apropiado.
+- Carga y exploración sistemática de datasets reales estructurados.
+- Implementación de división de datos con `train_test_split` para validación robusta.
+- Entrenamiento de modelos supervisados con scikit-learn (`fit`, `predict`).
+- Evaluación con métricas especializadas según el tipo de problema (MAE, RMSE, R² para regresión; Precision, Recall, F1 para clasificación).
 
 ---
 
@@ -102,4 +104,8 @@ basado en 30 características celulares.
 - Separar train/test es crucial para evaluar si el modelo funciona en la práctica.  
 
 ---
+
+## 📓 Notebook
+
+[Ver Notebook Completo](UT1/Practico4/TA4.ipynb)
 

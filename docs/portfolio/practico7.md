@@ -3,17 +3,20 @@
 
 ---
 
-## 📘 Introducción
+## 📘 Descripción
 
-En este práctico se profundiza en los fundamentos del **aprendizaje profundo (Deep Learning)**, explorando el funcionamiento de las **redes neuronales artificiales**.  
-A partir del perceptrón simple como base, se construyen modelos **multicapa (MLP – Multi-Layer Perceptron)** capaces de aprender relaciones no lineales entre los datos.  
+En este proyecto profundicé en los fundamentos del **Deep Learning**, implementando **redes neuronales artificiales (MLPs)** desde cero. Demostré mi dominio de:
 
-El trabajo incluye la experimentación con distintas **arquitecturas, funciones de activación, optimizadores y técnicas de regularización**, analizando su impacto en el desempeño del modelo.  
-Este ejercicio permite comprender los conceptos esenciales de entrenamiento, error, gradientes y generalización, que constituyen el núcleo del Deep Learning moderno.
+- Arquitecturas neuronales: desde perceptrones simples hasta redes multicapa complejas.
+- Técnicas de regularización (Dropout) para prevenir overfitting.
+- Optimización de hiperparámetros: funciones de activación, optimizadores y configuraciones de capas.
+- Evaluación sistemática del rendimiento con métricas de clasificación.
+
+Implementé experimentos controlados para analizar cómo cada componente impacta en la convergencia, precisión y capacidad de generalización.
 
 ---
 
-## 🎯 Objetivos
+## 🎯 Habilidades Demostradas
 
 - Comprender la estructura y funcionamiento de un **perceptrón artificial**.  
 - Implementar redes neuronales **multicapa (MLP)** utilizando *Keras* y *TensorFlow*.  
@@ -102,3 +105,9 @@ El flujo de trabajo siguió el **pipeline estándar de Deep Learning**:
 - **Scikit-learn documentation:**  
   [https://scikit-learn.org/](https://scikit-learn.org/)  
 - Goodfellow, I., Bengio, Y., & Courville, A. – *Deep Learning* (MIT Press, 2016)
+
+---
+
+## 📓 Notebook
+
+[Ver Notebook Completo](UT2/practico7.ipynb)

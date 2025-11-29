@@ -85,3 +85,7 @@ Este práctico permitió observar las diferencias entre enfoques de **regresión
 En conclusión, el dataset es ideal para comprender limitaciones de los modelos lineales y la importancia del balance de clases en clasificación.  
 
 ---
+
+## 📓 Notebook
+
+[Ver Notebook Completo](UT1/Practico4/TA4Wines.ipynb)

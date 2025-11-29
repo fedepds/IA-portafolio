@@ -1,9 +1,17 @@
 
 # Fine-Tuning YOLOv8 para Detección de Productos
 
-En esta práctica, se aborda un problema organizacional (automatización en supermercados) traduciéndolo en una solución técnica de IA. Se evalúan las limitaciones de un modelo de detección genérico (YOLOv8), se implementa una estrategia de fine-tuning para adaptarlo a un dominio específico (detección de frutas) y se compara el rendimiento de múltiples arquitecturas. Finalmente, el modelo afinado se despliega en un pipeline de tracking para un caso de uso de conteo en tiempo real.
+En este proyecto traduje una necesidad organizacional (automatización de inventario en supermercados) en una solución técnica end-to-end. Demostré mis habilidades en:
 
-## Objetivos
+- **Evaluación zero-shot**: Diagnóstico de limitaciones de modelos genéricos en dominios específicos.
+- **Comparativa de arquitecturas**: Experimentación controlada con YOLOv5/v8 (n, s, m) para selección informada.
+- **Fine-tuning**: Transfer learning para especializar YOLO en detección de frutas.
+- **Tracking en tiempo real**: Integración de YOLO + Norfair para conteo de productos en cintas.
+- **Análisis de fallos**: Diagnóstico sistemático para definir próximas iteraciones.
+
+Este proyecto demuestra el ciclo completo: desde la justificación de negocio hasta el despliegue y análisis post-producción.
+
+## Habilidades Demostradas
 - Traducir una necesidad organizacional (ej. conteo de inventario) en una solución de IA funcional.
 - Evaluar el rendimiento "zero-shot" de un modelo pre-entrenado (YOLOv8n en COCO) y demostrar sus limitaciones en un dominio específico.
 - Implementar un experimento de comparativa de arquitecturas (YOLOv5/v8) para seleccionar el modelo con el mejor balance de precisión, velocidad y tamaño.
@@ -85,3 +93,9 @@ El fine-tuning transformó un modelo inútil en una solución competente.
 
 ## Reflexión Personal
 Esta práctica ejecutó un proyecto de IA de extremo a extremo, reflejando perfectamente el salto de un problema de negocio a una solución técnica. No nos enfocamos en inventar un nuevo algoritmo, sino en aplicar herramientas open-source (Ultralytics, Norfair) a un problema concreto. Se evaluaron las limitaciones de la herramienta base, se aplicó un fine-tuning para adaptarla (creando valor medible) y se la integró en un pipeline funcional que resolvió la necesidad organizacional. Finalmente, se analizaron las nuevas limitaciones (IDs de bananas) para definir el próximo ciclo de mejora ágil.
+
+---
+
+## 📓 Notebook
+
+[Ver Notebook Completo](UT3/Practico11.ipynb)

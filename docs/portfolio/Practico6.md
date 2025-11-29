@@ -1,10 +1,12 @@
 # Clustering con K-Means (Mall Customers)
 
-## 🎯 Objetivo
-Realizar un **análisis exploratorio y segmentación de clientes** a partir del dataset *Mall Customers* con el fin de:
-1. Comprender las características principales de los clientes (edad, ingresos, puntaje de gasto).
-2. Detectar outliers y analizar distribuciones.
-3. Aplicar **clustering (K-Means)** para agrupar clientes en segmentos con patrones de consumo diferenciados.
+## 🎯 Descripción
+En este proyecto apliqué técnicas de **aprendizaje no supervisado** para segmentación de clientes, demostrando mis habilidades en:
+1. Análisis exploratorio exhaustivo de datos de comportamiento de consumidores.
+2. Detección y tratamiento de outliers mediante métodos estadísticos (IQR).
+3. Implementación de algoritmos de clustering (K-Means) para identificar segmentos.
+4. Determinación del número óptimo de clusters mediante el método del codo.
+5. Visualización y comunicación de resultados para estrategias de marketing.
 
 ---
 
@@ -64,3 +66,7 @@ Realizar un **análisis exploratorio y segmentación de clientes** a partir del 
   - Aplicar reducción de dimensionalidad (PCA) para visualizar mejor los grupos.  
 
 ---
+
+## 📓 Notebook
+
+[Ver Notebook Completo](UT1/Practico6/TA6Pizarro.ipynb)

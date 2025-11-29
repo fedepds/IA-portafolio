@@ -1,11 +1,11 @@
 # Validación Cruzada y Selección de Modelos
 
-## 🎯 Objetivo
-El propósito de este práctico fue aprender a:
-1. Prevenir **data leakage** utilizando pipelines.
-2. Implementar **validación cruzada** (cross-validation) robusta.
-3. Comparar múltiples modelos de forma sistemática.
-4. Analizar métricas de estabilidad y seleccionar el modelo más adecuado.
+## 🎯 Descripción
+En este proyecto apliqué técnicas avanzadas de Machine Learning para un problema de alto impacto social: predicción de abandono estudiantil. Demostré mis habilidades en:
+1. Prevención de **data leakage** mediante pipelines estructurados.
+2. Implementación de **validación cruzada (K-Fold)** para estimaciones robustas de rendimiento.
+3. Comparación sistemática de múltiples algoritmos de clasificación.
+4. Análisis de estabilidad y variabilidad de modelos para selección informada.
 
 ---
 
@@ -69,3 +69,7 @@ El propósito de este práctico fue aprender a:
 - Comparar con modelos más complejos como **Redes Neuronales** o **Stacking** para ensambles.  
 
 ---
+
+## 📓 Notebook
+
+[Ver Notebook Completo](UT1/Practico5/TA5.ipynb)

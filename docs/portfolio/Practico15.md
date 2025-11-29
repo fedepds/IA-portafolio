@@ -5,9 +5,15 @@
 
 ## Contexto
 
-En el marco de la **Unidad Temática 4: NLP y LLMs** del curso de Inteligencia Artificial, abordamos la limitación de los pipelines secuenciales tradicionales (cadenas lineales). El desafío consistió en diseñar un sistema capaz de mantener conversaciones complejas, gestionar memoria a largo plazo y decidir autónomamente cuándo utilizar herramientas externas.
+En este proyecto implementé **LangGraph**, el framework estado del arte para construir agentes con lógica compleja, superando las limitaciones de cadenas lineales. Desarrollé un **Asistente de Soporte Académico** que demuestra:
 
-El proyecto simula un **Asistente de Soporte Académico** para una organización educativa, integrando documentación no estructurada (Reglamentos) y datos transaccionales estructurados (Estado de alumnos).
+- **Arquitectura ReAct (Reason + Act)**: Ciclos cognitivos donde el agente razona, actúa y observa antes de responder.
+- **RAG avanzado**: Indexación de documentos institucionales (Reglamentos) en FAISS para fundamentar respuestas.
+- **Tools integration**: Conexión del LLM con funciones deterministas (consultas a "bases de datos" simuladas).
+- **StateGraph**: Diseño de flujos con nodos (Assistant, Tools, Memory) y aristas condicionales.
+- **Interfaz Gradio**: Despliegue de UI interactiva para validación de usuario.
+
+Este proyecto muestra cómo construir agentes conversacionales de nivel empresarial con memoria, herramientas y flujo dinámico.
 
 ## Objetivos
 
@@ -109,14 +115,6 @@ La siguiente prueba demuestra la capacidad del agente para combinar **RAG** (fec
 🤖 Respuesta Final: Como alumno A001, no tienes entregas pendientes. La defensa final está programada para el 02/12.
 ```
 
-### Capturas de Pantalla
-
-**Interfaz de Chat en Gradio:**
-[📸 INSERTAR CAPTURA AQUÍ: Una captura de la interfaz de Gradio mostrando la conversación anterior]
-
-**Visualización del Grafo:**
-[📸 INSERTAR CAPTURA AQUÍ: La imagen generada por `graph.get_graph().draw_png()` si la tienes, mostrando los nodos y flechas]
-
 ## Reflexión
 
 ### Aprendizajes Clave 🧠
@@ -139,3 +137,9 @@ La siguiente prueba demuestra la capacidad del agente para combinar **RAG** (fec
 [cite\_start]\* [cite: 1853] **Almacenes Vectoriales (FAISS vs Pinecone).** *Investigación NLP y LLMs\_ Guía Detallada.pdf*.
 
   * Se utliza documentación oficial de [LangGraph](https://langchain-ai.github.io/langgraph/) y [Gradio](https://www.gradio.app/).
+
+---
+
+## 📓 Notebook
+
+[Ver Notebook Completo](UT4/Practico15.ipynb)

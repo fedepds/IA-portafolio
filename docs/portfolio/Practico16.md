@@ -1,7 +1,16 @@
 
 # Google Cloud Platform y Vertex AI Pipelines
 
-A continuación presento mi experiencia práctica desarrollando soluciones en la nube, desde la gestión de infraestructura base hasta la orquestación avanzada de modelos de Machine Learning (MLOps).
+En este proyecto llevé un modelo de ML **desde el entrenamiento local hasta despliegue automatizado en producción en Google Cloud**. Demostré dominio de:
+
+- **GCP Fundamentals**: Configuración de proyectos, IAM (roles/permisos), navegación de servicios.
+- **Vertex AI Pipelines**: Orquestación MLOps con Kubeflow Pipelines (KFP) end-to-end.
+- **Componentes custom**: Desarrollo de funciones Python encapsuladas en contenedores (`@component`).
+- **AutoML workflow**: Pipeline completo (extracción → preprocesamiento → entrenamiento → evaluación → deployment).
+- **Endpoints de inferencia**: Despliegue de modelos como servicios escalables con Vertex AI.
+- **Cost optimization**: Configuración de recursos compute y eliminación de endpoints para controlar gastos.
+
+Este proyecto representa el ciclo completo de MLOps: desde notebook local hasta API de predicción en producción.
 
 ---
 

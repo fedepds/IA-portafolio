@@ -2,7 +2,15 @@
 
 # Fine-Tuning de Transformers para Sentimiento Financiero
 
-En esta práctica, se aborda un problema organizacional (medir el sentimiento del mercado) traduciéndolo en una solución técnica de IA (clasificación NLP). Se establece y evalúa un *baseline* clásico (TF-IDF), demostrando sus limitaciones semánticas. Luego, se implementa una estrategia de *fine-tuning* para adaptar modelos Transformer preentrenados (genéricos vs. de dominio) al problema. Finalmente, se analizan los artefactos de entrenamiento (overfitting), se compara el espacio latente (UMAP) y se evalúan técnicas avanzadas (balanceo de clases) para seleccionar el modelo óptimo.
+En este proyecto demostré mi dominio de **Transfer Learning con Transformers** aplicándolo a NLP financiero. Traduje una necesidad organizacional (medir sentimiento de mercado) en una solución técnica end-to-end:
+
+- **Baseline robusto**: Implementé TF-IDF + Regresión Logística para establecer benchmark.
+- **Fine-tuning comparativo**: Experimenté con modelo genérico (BERT) vs especializado (FinBERT).
+- **Diagnóstico de overfitting**: Analisé curvas de entrenamiento y estabilidad del modelo.
+- **Visualización de embeddings**: Usé UMAP para demostrar cómo Transformers capturan semántica vs TF-IDF.
+- **Manejo de desbalance**: Implementé WeightedTrainer con class weights para mejorar F1-macro.
+
+Este proyecto demuestra cómo la especialización de dominio impacta en el rendimiento de modelos de lenguaje.
 
 ## Objetivos
 - Traducir una necesidad organizacional (análisis de sentimiento) en una solución técnica de NLP.
@@ -66,8 +74,8 @@ El F1-score más alto no contó toda la historia. El análisis de las curvas de 
 ### 3. Impacto Visual del Fine-Tuning (El "Blob" vs. los "Continentes")
 
 La visualización UMAP validó por qué los Transformers ganaron:
-- **TF-IDF (Baseline)**: [Imagen de blob caótico de UMAP] Mostró un "blob" caótico donde las clases 0, 1 y 2 eran indistinguibles.
-- **FinBERT (Transformer)**: [Imagen de UMAP con clusters separados] Mostró tres "continentes" de clases claros y semánticamente separados. El Transformer no "encontró" una estructura, **la creó**, fabricando un espacio de características separable que explica el salto de 10 puntos en F1.
+- **TF-IDF (Baseline)**: Mostró un "blob" caótico donde las clases 0, 1 y 2 eran indistinguibles.
+- **FinBERT (Transformer)**: Mostró tres "continentes" de clases claros y semánticamente separados. El Transformer no "encontró" una estructura, **la creó**, fabricando un espacio de características separable que explica el salto de 10 puntos en F1.
 
 ### 4. Resultado de Técnicas Avanzadas (El Balanceo Falló)
 
@@ -88,4 +96,10 @@ Esta práctica ejecutó un proyecto de NLP de extremo a extremo, desde la justif
 3.  **Diagnosticar** el entrenamiento (overfitting en `bert-base`).
 4.  **Comparar trade-offs** (eficiencia y estabilidad de `FinBERT` vs. F1 marginal de `bert-base`).
 5.  **Validar hipótesis** (el balanceo de clases falló).
+
+---
+
+## 📓 Notebook
+
+[Ver Notebook Completo](UT4/Practico13.ipynb)
 

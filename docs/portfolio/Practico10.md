@@ -1,6 +1,15 @@
 # Data Augmentation y XAI con Transfer Learning (Flowers102)
 
-En esta práctica aplicamos Transfer Learning a un dataset complejo (Flowers102), enfocándonos en robustez (Data Augmentation) y confianza (Explicabilidad: GradCAM e Integrated Gradients).
+En este proyecto apliqué **Transfer Learning** a un problema complejo de clasificación (102 especies de flores), integrando técnicas avanzadas:
+
+- **Data Augmentation**: Pipeline robusto con transformaciones múltiples para simular variabilidad real.
+- **Transfer Learning**: Fine-tuning de EfficientNetB0 pre-entrenado en ImageNet.
+- **Explicabilidad (XAI)**: Implementación de GradCAM e Integrated Gradients para auditar decisiones del modelo.
+- **Diagnóstico de overfitting**: Análisis de curvas de entrenamiento y propuestas de mejora.
+
+Demostré que la explicabilidad no es un "extra" sino una herramienta crítica de debugging y confianza en producción.
+
+--- a un dataset complejo (Flowers102), enfocándonos en robustez (Data Augmentation) y confianza (Explicabilidad: GradCAM e Integrated Gradients).
 
 ## Objetivos
 - Aplicar Transfer Learning (EfficientNetB0) para clasificación de 102 clases.
@@ -58,3 +67,9 @@ En esta práctica aplicamos Transfer Learning a un dataset complejo (Flowers102)
 ## Próximo paso
 - Implementar ModelCheckpoint para guardar el mejor modelo (época 6).
 - Probar Mixup/CutMix y regularización adicional para reducir overfitting.
+
+---
+
+## 📓 Notebook
+
+[Ver Notebook Completo](UT3/Practico10.ipynb)

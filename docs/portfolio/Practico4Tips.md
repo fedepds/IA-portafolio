@@ -81,4 +81,9 @@ Este práctico permitió comparar distintos enfoques en un dataset pequeño y mi
 - La **clasificación binaria con Regresión Logística** alcanzó un 73% de accuracy, mostrando que el modelo es útil para distinguir entre propinas altas y bajas, aunque el recall de la clase alta aún puede mejorar.  
 
 En conclusión, el dataset **Tips** es ideal para comprender cómo los métodos de regularización (Ridge y Lasso) impactan en la predicción y cómo un enfoque de clasificación puede aportar otra perspectiva en el análisis.  
+
 ---
+
+## 📓 Notebook
+
+[Ver Notebook Completo](UT1/Practico4/TA4Tips%20.ipynb)

@@ -1,5 +1,16 @@
 # Backpropagation y Optimizadores
-En esta práctica exploramos **MLPs aplicados a datasets de imágenes** (MNIST, Fashion-MNIST, CIFAR-10 y CIFAR-100), evaluando cómo distintos hiperparámetros y técnicas afectan el rendimiento.
+
+En este proyecto exploré **MLPs aplicados a datasets de imágenes** (MNIST, Fashion-MNIST, CIFAR-10/100), demostrando mi comprensión profunda de:
+
+- **Backpropagation**: El algoritmo fundamental que permite entrenar redes neuronales profundas.
+- **Optimizadores avanzados**: Comparación empírica de Adam, SGD, RMSprop y AdamW.
+- **Arquitecturas neuronales**: Experimentación sistemática con profundidad y ancho de capas.
+- **Regularización**: Implementación de Dropout, L2 y BatchNormalization.
+- **Callbacks**: Uso de EarlyStopping, ReduceLROnPlateau y TensorBoard para entrenamiento eficiente.
+
+Realicé experimentos controlados modificando un hiperparámetro a la vez para aislar su impacto en el rendimiento.
+
+--- (MNIST, Fashion-MNIST, CIFAR-10 y CIFAR-100), evaluando cómo distintos hiperparámetros y técnicas afectan el rendimiento.
 
 ---
 
@@ -81,3 +92,9 @@ Este ejercicio me permitió entender:
 - Que el **MLP es limitado para visión**, pero sirve como base para comprender *backpropagation, optimizadores y regularización*.  
 
 Próximo paso: aplicar las mismas técnicas con **CNNs** para mejorar la performance en datasets de imágenes más complejos.
+
+---
+
+## 📓 Notebook
+
+[Ver Notebook Completo](UT2/Practica8.ipynb)

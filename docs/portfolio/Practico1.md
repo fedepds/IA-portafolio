@@ -1,11 +1,11 @@
 # Análisis Exploratorio de Datos (Titanic)
 
-## 🎯 Objetivo
-Familiarizarse con el dataset **Titanic - Kaggle** y aplicar un **análisis exploratorio de datos (EDA)** para:
-1. Entender la estructura del dataset y sus variables.  
-2. Detectar valores faltantes y su impacto.  
-3. Analizar la distribución de la variable objetivo (`Survived`).  
-4. Explorar relaciones entre supervivencia y variables como sexo, clase y edad.  
+## 🎯 Descripción
+En este proyecto apliqué técnicas de **análisis exploratorio de datos (EDA)** sobre el dataset **Titanic de Kaggle**, demostrando mi capacidad para:
+1. Analizar la estructura de datasets complejos y comprender sus variables.  
+2. Identificar y evaluar el impacto de valores faltantes en los datos.  
+3. Explorar la distribución de variables objetivo y detectar patrones.  
+4. Descubrir relaciones significativas entre variables predictoras y el resultado.  
 
 ---
 
@@ -26,47 +26,50 @@ Familiarizarse con el dataset **Titanic - Kaggle** y aplicar un **análisis expl
 
 ---
 
-## 🔧 Proceso
+## 🔧 Metodología Aplicada
 
-### 1. Carga y Exploración
-- Lectura de los archivos `train.csv` y `test.csv`.  
-- Inspección inicial con:
-  - `.shape` → tamaño del dataset.  
-  - `.columns` → nombres de las columnas.  
-  - `.head()` → primeras filas.  
-  - `.info()` y `.describe()` → resumen de tipos y estadísticas.  
+### 1. Carga y Exploración de Datos
+Realicé la carga de los archivos `train.csv` y `test.csv`, aplicando técnicas de inspección inicial:
+  - Análisis dimensional con `.shape` para evaluar el volumen de datos.  
+  - Exploración de columnas y tipos de datos con `.columns`, `.info()`.  
+  - Análisis estadístico descriptivo con `.describe()` y `.head()`.  
 
-### 2. Valores Faltantes
-- Análisis con `.isna().sum()` para identificar columnas incompletas.  
-- Las más afectadas fueron `Age`, `Cabin` y `Embarked`.  
+### 2. Análisis de Valores Faltantes
+Implementé un análisis sistemático con `.isna().sum()` para identificar columnas con datos incompletos.  
+Identifiqué que `Age`, `Cabin` y `Embarked` presentaban los mayores porcentajes de valores faltantes, lo cual requeriría estrategias de imputación posteriores.  
 
-### 3. Variable Objetivo
-- Distribución de `Survived`:  
-  - Aproximadamente el **38% sobrevivió** y el **62% no lo hizo**.  
+### 3. Exploración de la Variable Objetivo
+Analicé la distribución de `Survived`, identificando un desbalance de clases:  
+  - **38% de supervivientes** vs **62% de fallecidos**, lo que tiene implicaciones importantes para el modelado predictivo.  
 
-### 4. Visualizaciones
-- **Supervivencia por sexo** → las mujeres tuvieron mucha mayor probabilidad de sobrevivir.  
-- **Supervivencia por clase (Pclass)** → los pasajeros de primera clase tuvieron más chances.  
-- **Distribución de edad vs supervivencia** → se analizaron patrones etarios.  
-- **Mapa de calor de correlaciones** → permitió observar relaciones entre variables numéricas (`Pclass`, `Age`, `SibSp`, `Parch`, `Fare`).  
-
----
-
-## 📈 Resultados
-- El dataset presenta **valores faltantes relevantes** en `Age` y `Cabin`.  
-- Variables con mayor relación con la supervivencia:  
-  - **Sexo** (ventaja para mujeres).  
-  - **Clase** (mejor supervivencia en primera clase).  
-- La variable `Fare` muestra diferencias entre clases, lo que también influye en la supervivencia.  
+### 4. Visualización y Análisis de Patrones
+Generé visualizaciones estratégicas para descubrir patrones clave:
+- **Supervivencia por género**: Identifiqué que las mujeres tuvieron una probabilidad significativamente mayor de sobrevivir.  
+- **Supervivencia por clase**: Los pasajeros de primera clase mostraron tasas de supervivencia superiores.  
+- **Análisis etario**: Exploré la relación entre edad y supervivencia, detectando patrones relevantes.  
+- **Mapa de correlaciones**: Utilicé heatmaps para visualizar relaciones entre variables numéricas (`Pclass`, `Age`, `SibSp`, `Parch`, `Fare`).  
 
 ---
 
-## 🔍 Reflexión
-- El análisis exploratorio permite identificar las variables clave que influenciaron la supervivencia.  
-- Este paso es fundamental antes de aplicar modelos de machine learning.  
-- Futuras mejoras:  
-  - Imputar inteligentemente `Age` y `Embarked`.  
-  - Extraer nuevas variables (`Title` desde `Name`, tamaño de familia).  
-  - Evaluar combinaciones de variables para mejorar modelos predictivos.  
+## 📈 Resultados Obtenidos
+- Identifiqué valores faltantes críticos en `Age` (20%) y `Cabin` (77%), lo que informó estrategias de preprocesamiento.  
+- Descubrí las variables con mayor poder predictivo para la supervivencia:  
+  - **Género**: Las mujeres tuvieron una tasa de supervivencia 4 veces mayor.  
+  - **Clase socioeconómica**: La primera clase mostró tasas de supervivencia del 63% vs 24% en tercera clase.  
+- La variable `Fare` presentó alta correlación con `Pclass`, validando su relevancia como indicador socioeconómico.  
 
 ---
+
+## 🔍 Conclusiones y Próximos Pasos
+- Demostré mi capacidad para realizar análisis exploratorio exhaustivo, identificando patrones y variables clave antes del modelado.  
+- Este EDA estableció las bases para el desarrollo de modelos predictivos robustos.  
+- Propuse mejoras estratégicas:  
+  - Implementar técnicas de imputación inteligente para `Age` y `Embarked`.  
+  - Realizar feature engineering: extraer títulos (`Mr.`, `Mrs.`) desde `Name`, crear variable de tamaño familiar.  
+  - Explorar interacciones entre variables para capturar relaciones no lineales.  
+
+---
+
+## 📓 Notebook
+
+[Ver Notebook Completo](UT1/Practico1/Practica_1Pizarro.ipynb)

@@ -1,6 +1,15 @@
 # LangChain: Prompting y Salida Estructurada con OpenAI
 
-En esta práctica, se abordó la orquestación de Modelos de Lenguaje (LLMs) para construir aplicaciones robustas. El enfoque se centró en pasar de invocaciones simples (`llm.invoke`) a la creación de **cadenas (pipelines) fiables, observables y estructuradas** usando LangChain. Se exploraron los parámetros de decodificación, el uso de plantillas (templates), el encadenamiento con LCEL (`|`), y la crucial habilidad de forzar salidas estructuradas (JSON/Pydantic). Finalmente, se integraron estos conceptos para construir un sistema de RAG (Generación Aumentada por Recuperación) que simula un chatbot de soporte.
+En este proyecto dominé **LangChain**, el framework esencial para construir aplicaciones LLM de producción. Demostré mis habilidades en:
+
+- **Ingeniería de prompts**: Diseño de plantillas reutilizables con ChatPromptTemplate y LCEL (`|`).
+- **Salida estructurada**: Transformación de respuestas LLM en objetos Python validados (Pydantic).
+- **Observabilidad**: Medición de tokens y latencia con LangSmith para optimizar costos.
+- **Few-shot learning**: Comparación empírica vs zero-shot y análisis del impacto de temperatura.
+- **Map-Reduce**: Procesamiento de textos largos que exceden la ventana de contexto.
+- **RAG básico**: Implementación de Retrieval-Augmented Generation con FAISS para chatbot de soporte.
+
+Este proyecto refleja el toolkit completo para construir aplicaciones LLM robustas, observables y estructuradas.
 
 ## Objetivos
 - Instanciar un modelo de chat de OpenAI (`ChatOpenAI`) y controlar parámetros de decodificación (`temperature`, `max_tokens`).
@@ -78,3 +87,9 @@ El chatbot integrador demostró el éxito del patrón RAG + grounding + salida e
 
 ## Reflexión Personal
 Esta práctica marcó la transición de la ingeniería de prompts (prompt engineering) al diseño de sistemas (systems design). El verdadero poder no reside solo en el LLM, sino en la **cadena de orquestación** que construimos a su alrededor. Se diseñó un sistema de extremo a extremo que combina recuperación de datos (RAG) con un formato de salida garantizado (Pydantic), creando una aplicación que es fiable, observable y soluciona una necesidad de negocio concreta (chatbot de soporte).
+
+---
+
+## 📓 Notebook
+
+[Ver Notebook Completo](UT4/Practico14.ipynb)

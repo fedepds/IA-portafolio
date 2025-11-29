@@ -1,8 +1,15 @@
 # Fine-Tuning de SAM para Segmentación de Inundaciones
 
-En esta práctica, se realiza un fine-tuning del modelo de fundación "Segment Anything Model" (SAM) para una tarea de segmentación específica: la detección de áreas inundadas. Se compara el rendimiento del modelo pre-entrenado (zero-shot), el modelo afinado y una arquitectura clásica de segmentación (U-Net).
+En este proyecto apliqué **fine-tuning de un modelo de fundación** (Segment Anything Model - SAM) para un problema crítico: detección de áreas inundadas en imágenes satelitales. Demostré:
 
-## Objetivos
+- **Transfer learning eficiente**: Fine-tuning selectivo del decoder (4.33% de parámetros) logrando mejoras significativas.
+- **Evaluación zero-shot**: Análisis del rendimiento base con prompts de punto y caja.
+- **Comparación arquitectónica**: Benchmarking contra U-Net especialista para validar la estrategia.
+- **Métricas de segmentación**: IoU, Dice, Precisión y Recall para evaluación exhaustiva.
+
+Este proyecto muestra cómo adaptar modelos generalistas de gran escala a dominios específicos con eficiencia computacional.
+
+## Habilidades Demostradas
 - Aplicar un modelo de fundación (SAM) a un dominio de segmentación novedoso.
 - Evaluar el rendimiento "zero-shot" de SAM usando prompts de punto y caja.
 - Implementar una estrategia de fine-tuning eficiente, entrenando únicamente el decodificador de máscaras de SAM.
@@ -55,3 +62,9 @@ En esta práctica, se realiza un fine-tuning del modelo de fundación "Segment A
 
 ## Reflexión Personal
 Esta práctica demuestra el poder de los modelos de fundación y el paradigma de "pre-entrenar y luego afinar". En lugar de construir un modelo desde cero, podemos tomar un modelo generalista y, con un esfuerzo computacional relativamente bajo, especializarlo para que sobresalga en una tarea concreta. La comparación con U-Net subraya que, si bien los modelos especialistas aún pueden tener una ligera ventaja, los modelos de fundación afinados son una alternativa increíblemente potente y eficiente.
+
+---
+
+## 📓 Notebook
+
+[Ver Notebook Completo](UT3/Practico12.ipynb)
