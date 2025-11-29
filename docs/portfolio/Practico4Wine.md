@@ -88,4 +88,6 @@ En conclusión, el dataset es ideal para comprender limitaciones de los modelos 
 
 ## 📓 Notebook
 
-[Ver Notebook Completo](UT1/Practico4/TA4Wines.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/fedepds/IA-portafolio/blob/main/docs/portfolio/UT1/Practico4/TA4Wines.ipynb)
+
+[Ver Notebook en GitHub](UT1/Practico4/TA4Wines.ipynb)

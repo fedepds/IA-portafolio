@@ -98,4 +98,6 @@ Esta práctica ejecutó un proyecto de IA de extremo a extremo, reflejando perfe
 
 ## 📓 Notebook
 
-[Ver Notebook Completo](UT3/Practico11.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/fedepds/IA-portafolio/blob/main/docs/portfolio/UT3/Practico11.ipynb)
+
+[Ver Notebook en GitHub](UT3/Practico11.ipynb)

@@ -86,4 +86,6 @@ En conclusión, el dataset **Tips** es ideal para comprender cómo los métodos 
 
 ## 📓 Notebook
 
-[Ver Notebook Completo](UT1/Practico4/TA4Tips%20.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/fedepds/IA-portafolio/blob/main/docs/portfolio/UT1/Practico4/TA4Tips%20.ipynb)
+
+[Ver Notebook en GitHub](UT1/Practico4/TA4Tips%20.ipynb)

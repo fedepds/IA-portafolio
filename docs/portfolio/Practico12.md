@@ -67,4 +67,6 @@ Esta práctica demuestra el poder de los modelos de fundación y el paradigma de
 
 ## 📓 Notebook
 
-[Ver Notebook Completo](UT3/Practico12.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/fedepds/IA-portafolio/blob/main/docs/portfolio/UT3/Practico12.ipynb)
+
+[Ver Notebook en GitHub](UT3/Practico12.ipynb)

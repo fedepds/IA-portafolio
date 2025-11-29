@@ -71,4 +71,6 @@ Esto abriría la puerta a modelos más complejos como **árboles de decisión o 
 
 ## 📓 Notebook
 
-[Ver Notebook Completo](UT1/Practico2/Practico2Pizarro.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/fedepds/IA-portafolio/blob/main/docs/portfolio/UT1/Practico2/Practico2Pizarro.ipynb)
+
+[Ver Notebook en GitHub](UT1/Practico2/Practico2Pizarro.ipynb)
